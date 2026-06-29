@@ -1,0 +1,211 @@
+@charset "UTF-8";
+
+/* ==========================
+   共通設定
+========================== */
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    background: #ffffff;
+    color: #333333;
+}
+
+.container {
+   width: 1000px;
+   margin: 0 auto;
+   margin-bottom: 120px;
+}
+
+a{
+    color: #333333;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    transition:0.3s;
+}
+
+a:hover{
+    color:#b884ff;
+    ransform:translateY(-2px);
+}
+
+h2 {
+   text-align: center;
+   padding-bottom: 60px;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #fdf6fe;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(
+        180deg,
+        #c1fad9,
+        #d7c6ff
+    );
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(
+        180deg,
+        #9ce9c0,
+        #c9b0ff
+    );
+}
+
+
+/* ==========================
+   Header
+========================== */
+
+header {
+   margin-bottom: 120px;
+
+}
+
+.headernav {
+position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(193,250,217,.5);
+    backdrop-filter: blur(8px);
+    z-index: 999;
+    box-shadow: 0 2px 10px rgba(0,0,0,.05);
+
+}
+
+.headernav ul{
+   display: flex;
+    gap: 40px;
+
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+   max-width: 1000px;
+    font-size: 30px;
+   
+}
+
+
+/* ==========================
+   Profile
+========================== */
+
+.profilezone {
+   display:flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   gap: 80px;
+
+}
+
+.profilezone p {
+   display:flex;
+   flex-direction: column;
+   width: 450px;
+   height: 450px;
+   justify-content:center;
+}
+
+.profilezone img {
+   width: 400px;
+   height: auto;
+   
+}
+
+
+
+/* ==========================
+   Skills
+========================== */
+
+.skill-all {
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.itembox {
+background-color: #fdf6fe;
+width: 250px;
+padding: 15px;
+justify-content: center;
+align-items:center;
+gap: 20px;
+border: 1px solid #e8c8ff;
+border-radius: 20px;
+}
+
+.itembox img {
+    display:block;
+    margin:0 auto 20px auto;
+}
+
+
+/* ==========================
+   Works
+========================== */
+
+.works-all {
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.itembox2 {
+   background-color: #fdf6fe;
+width: 250px;
+height: 230px;
+padding: 15px;
+margin-bottom: 20px;
+justify-content: center;
+align-items:center;
+gap: 20px;
+border: 1px solid #e8c8ff;
+border-radius: 20px;
+}
+
+.itembox2 img {
+    display:block;
+    margin:0 auto 20px auto;
+}
+
+.itembox2 li{
+   margin-left: 10px;
+}
+
+/* ==========================
+   Service
+========================== */
+
+.service {
+
+}
+
+/* ==========================
+   Contact
+========================== */
+
+.contact {
+
+}
+
+/* ==========================
+   Footer
+========================== */
+
+footer {
+
+}
