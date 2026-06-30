@@ -313,22 +313,6 @@ footer {
   align-items: center;
   }
 
- .fv-text{
-    left:6%;
-    top:52%;
-}
-
-.fv-text h1{
-    font-size:22px;
-    line-height:1.35;
-}
-
-.fv-text p{
-    font-size:13px;
-    margin-top:12px;
-    line-height:1.5;
-}
-
   
   .nav-inner{
     width:90%;
@@ -398,17 +382,18 @@ footer {
 
   .fv-text{
     left:6%;
-    top:55%;
+    top:52%;
   }
 
   .fv-text h1{
-    font-size:24px;
-    line-height:1.5;
+    font-size:20px;
+    line-height:1.35;
   }
 
   .fv-text p{
-    font-size:13px;
-    margin-top:16px;
+    font-size:12px;
+    margin-top:10px;
+    line-height:1.5;
   }
 
   h2{
