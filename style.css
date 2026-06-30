@@ -3,18 +3,6 @@
 /* ==========================
    共通設定
 ========================== */
-<!--スマホ-->
-@media(max-width:640px){
-  .container{
-   width: 90%; 
-  }
-  .fv img{
-    width: 100%;
-    display: block;
-   }
-
-}
-  
 
 * {
    margin: 0;
@@ -43,7 +31,7 @@ a{
 
 a:hover{
     color:#b884ff;
-    ransform:translateY(-2px);
+    transform:translateY(-2px);
 }
 
 h2 {
