@@ -438,13 +438,21 @@ footer {
     padding:24px;
   }
 
-  .ft-btn{
-    top:100%;
-    right:50%;
-    transform:translateX(50%) translateY(-50%);
-    padding:14px 28px;
-    font-size:14px;
+   .ft-btn{
+    top:80%;
+    left:50%;
+    right:auto;
+    transform:translate(-50%, -50%);
+
+    padding:12px 24px;
+    font-size:13px;
     white-space:nowrap;
+  }
+
+  .ft-btn:hover{
+    background:#b97cff;
+    transform:translate(-50%, -55%);
+    box-shadow:0 8px 20px rgba(191,141,255,.35);
   }
 
   footer{
