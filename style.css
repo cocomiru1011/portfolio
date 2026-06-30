@@ -289,7 +289,7 @@ footer {
 
   body{
     font-size:14px;
-    padding-top: 60px;
+    padding-top:0;
   }
 
   .container{
@@ -297,6 +297,10 @@ footer {
     margin-bottom:80px;
   }
 
+.fv{
+    margin-top:60px;
+  }
+  
   header{
     margin-bottom:80px;
   }
@@ -308,6 +312,8 @@ footer {
   display: flex;
   align-items: center;
   }
+
+  
 
   .nav-inner{
     width:90%;
