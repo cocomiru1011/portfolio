@@ -285,6 +285,10 @@ footer {
   display:none;
 }
 
+/* ==========================
+   SP
+========================== */
+
 @media screen and (max-width: 640px){
 
   body{
@@ -395,6 +399,20 @@ footer {
     margin-top:10px;
     line-height:1.5;
   }
+
+    .profileimage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .profileimage img{
+    width: 80%;
+    max-width: 320px;
+    display: block;
+    margin: 0 auto;
+  }
+
 
   h2{
     padding-bottom:40px;
