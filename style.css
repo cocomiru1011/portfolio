@@ -439,7 +439,7 @@ footer {
   }
 
   .ft-btn{
-    top:72%;
+    top:80%;
     right:50%;
     transform:translateX(50%) translateY(-50%);
     padding:14px 28px;
