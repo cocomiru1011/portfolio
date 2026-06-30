@@ -313,20 +313,20 @@ footer {
   align-items: center;
   }
 
-  .fv-text h1{
-font-size: 30px;
-
-    color: #333;
+ .fv-text{
+    left:6%;
+    top:52%;
 }
 
-.fv-text span{
- color: #bf8dff;
+.fv-text h1{
+    font-size:22px;
+    line-height:1.35;
 }
 
 .fv-text p{
-margin-top: 25px;
-font-size: 15px;
-line-height: 1.8;
+    font-size:13px;
+    margin-top:12px;
+    line-height:1.5;
 }
 
   
